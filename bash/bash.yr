@@ -1,0 +1,9 @@
+alias ls='ls --color=auto'
+alias ll='ls -lh'
+alias la='ls -a'
+alias maj='apt-get update && apt-get dist-upgrade'
+alias duy='du -h --max-depth=1'
+alias fixnomfichier='convmv -r -f ISO-8859-1 -t UTF-8 --notest *'
+
+source /usr/local/src/liquidprompt/liquidprompt
+
